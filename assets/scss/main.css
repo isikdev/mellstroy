@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+.main__btn {
+  padding: 10px 70px;
+  background: #d90102;
+  border: 1px solid #d90102;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.main__btn:hover {
+  opacity: 0.5;
+}
+
+.progress-bar {
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.progress-container {
+  background: #ff0000;
+  display: block;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.progress-container span {
+  padding: 5px;
+  background: #ff4040;
+  width: 90%;
+  display: block;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.intro {
+  background: url("../img/bg/1.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  padding: 20px 0;
+  position: relative;
+}
+.intro__title-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+.intro__title {
+  color: #fff;
+  text-align: center;
+}
+.intro__title h1 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.intro__title h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.intro__title p {
+  color: #888;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 20px;
+}
+
+.navbar {
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.0509803922);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 16px;
+}
+.navbar nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.navbar nav ul {
+  display: flex;
+  gap: 50px;
+}
+.navbar nav ul li {
+  list-style: none;
+}
+.navbar nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.navbar nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.5019607843);
+}
+
+.true {
+  background: url("../img/bg/2.jpg") no-repeat bottom center/cover;
+  min-height: 100vh;
+  padding: 120px 0;
+  position: relative;
+}
+.true__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.true__img-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.true__text-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.true__wrapper-intro {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.true__wrapper-intro h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.true__wrapper-intro h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 40px 0;
+  max-width: 690px;
+}
+.true__wrapper-intro p {
+  font-size: 30px;
+  font-weight: 500;
+}
+.true__wrapper-progress p {
+  margin: 20px 0;
+  font-size: 22px;
+  color: #818898;
+}
+.true__wrapper-progress p span {
+  color: #fff;
+}
+
+.jetcar {
+  background: url("../img/bg/3.jpg") no-repeat bottom center/cover;
+}
+
+.tamaev {
+  background: url("../img/bg/4.jpg") no-repeat center center/cover;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+.tamaev__content {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tamaev .true__wrapper-intro {
+  text-align: center;
+  margin: 0 auto;
+}
+.tamaev .true__wrapper-intro h3 {
+  margin: 22px auto;
+  display: flex;
+  justify-content: center;
+}
+.tamaev .true__wrapper-progress {
+  margin: 20px auto;
+}
+.tamaev .progress-bar {
+  margin: 0 auto;
+}
+.tamaev .main__btn {
+  max-width: 211px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.admin {
+  background: url("../img/bg/5.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+}
+.admin .true__wrapper-intro h2 {
+  max-width: 666px;
+}
+.admin .true__text-wrapper {
+  position: relative;
+  z-index: 9999;
+}
+.admin .true__img-wrapper {
+  bottom: unset;
+  top: 0;
+  z-index: 0;
+}
+.admin .true__wrapper-intro h3 {
+  margin: unset;
+  margin-top: 30px;
+}
+.admin .true__wrapper-progress p {
+  margin: unset;
+  color: #fff;
+}
+.admin .main__btn {
+  position: unset;
+  display: flex;
+  justify-content: center;
+  max-width: 222px;
+  margin: 20px 0;
+}
+.admin .surprise__subtitle p {
+  color: #f4f4f4;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer {
+  background: url("../img/bg/5.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  position: relative;
+}
+.footer__intro {
+  text-align: center;
+  padding: 100px 0;
+}
+.footer__intro h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.footer__intro p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #818889;
+}
+.footer__intro h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #fff;
+  margin: 12px 0;
+}
+.footer__intro .main__btn {
+  max-width: 305px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.footer__intro-block p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 12px;
+}/*# sourceMappingURL=main.css.map */
